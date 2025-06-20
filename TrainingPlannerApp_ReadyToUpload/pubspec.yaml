@@ -1,0 +1,28 @@
+
+name: training_planner_app
+description: Приложение для составления индивидуального тренировочного плана.
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  path_provider: ^2.0.14
+  file_picker: ^6.1.1
+  youtube_player_flutter: ^8.1.0
+  provider: ^6.0.5
+  flutter_native_splash: ^2.3.1
+
+flutter:
+  uses-material-design: true
+
+flutter_native_splash:
+  color: "#f4511e"
+  image: assets/splash/splash.png
+  android: true
+  ios: true
